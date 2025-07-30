@@ -1,0 +1,83 @@
+html, body {
+    background: linear-gradient(to left, #6d59ec, #ae83ef);
+    height: 100%;
+}
+
+#container {
+    margin: 4% 6% 13%;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    height: 83%;
+    font-size: 0;
+    font-family: "Lato";
+}
+
+.side {
+    width: 40%;
+    height: 100%;
+    padding: 0 5%;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#lsd {
+    color: white;
+    font-size: medium;
+    background-color: #02b4d2;
+    font-size: 1.5rem;
+}
+
+#rsd {
+    font-size: medium;
+    background-color: white;
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-weight:bolder;
+}
+
+#contact-head {
+    margin: 0;
+}
+
+.left-sided {
+    margin: 1rem;
+    margin-right: 60%;
+}
+
+.input {
+    display: block;
+    width: 80%;
+    border: 0;
+    background-color: whitesmoke;
+    padding-left: 3%;
+    margin: 2%;
+}
+
+input {
+    height: 6%;
+    margin: 3%;
+}
+
+textarea {
+    padding-top: 3%;
+}
+
+button {
+    background-color: #02b4d2;
+    border-radius: 2rem;
+    border: 0;
+    color:white;
+    width: 40%;
+    height: 10%;
+    margin: 2%;
+}
+
+
+
