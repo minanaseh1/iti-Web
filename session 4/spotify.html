@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Spotify Artist Page</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+/>
+
+</head>
+<body>
+  <div class="main-container">
+    <div class="card-container">
+        <div class="card">
+            <div class="artist-image">
+                <img src="download.jpg"/>
+            </div>
+            <div class="artist-info">
+                <p class="label">ARTIST</p>
+                <h1 class="name">Clairo</h1>
+                <p class="listen">LISTEN ON 
+                    <img class="spotify-icon" src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg" />
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="sidebar">
+      <div class="filter-tabs">
+        <button class="active">Artist</button>
+        <button>Songwriter</button>
+        <button>Album</button>
+      </div>
+      <div class="search-box">
+        <span class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+        <input type="text" value="Clairo" />
+        <span class="close">✕</span>
+      </div>
+
+      <div class="artist-list">
+        <div class="artist-item selected">
+          <img src="spotify.jpg" alt="Clairo" />
+          <div class="artist-text">
+            <p class="artist-role">ARTIST</p>
+            <p class="artist-name">Clairo</p>
+          </div>
+        </div>
+
+        <div class="artist-item">
+          <img src="https://via.placeholder.com/50x50" alt="Ridgely" />
+          <div class="artist-text">
+            <p class="artist-role">ARTIST</p>
+            <p class="artist-name">Ridgely</p>
+          </div>
+        </div>
+
+        <div class="artist-item">
+          <img src="https://via.placeholder.com/50x50" alt="NIKI" />
+          <div class="artist-text">
+            <p class="artist-role">ARTIST</p>
+            <p class="artist-name">NIKI</p>
+          </div>
+        </div>
+
+        <div class="artist-item">
+          <img src="https://via.placeholder.com/50x50" alt="Claire" />
+          <div class="artist-text">
+            <p class="artist-role">ARTIST</p>
+            <p class="artist-name">Claire Rosinkranz</p>
+          </div>
+        </div>
+      </div>
+
+      <button class="customize-btn">CUSTOMIZE</button>
+    </div>
+  </div>
+</body>
+</html>
