@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato";
+}
+
+html {
+    font-size: 13px;
+}
+
+body {
+    perspective: 800px;
+}
+
+.container {
+    margin: auto;
+    width: 90%;
+}
+
+.card {
+    width: 40%;
+    margin: 10% auto;
+    box-shadow: 90px black;
+}
+
+img {
+    width: 100%;
+}
+
+.info {    
+}
+
+.side-bar {
+    background-color: black;
+    color: white;
+    width: 30%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.col-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.row-flex {
+    display: flex;
+    flex-direction: row;
+}

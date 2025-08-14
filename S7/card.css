@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+    color: white;
+}
+
+.card {
+    width: 576px;
+    height: 809px;
+    background-color: #5D5FEF;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    border-radius: 50%;
+    width: 40%;
+    margin: 10% auto 5%;
+}
+
+h1 {
+    margin-bottom: 1%;
+}
+
+.job {
+    font-size: x-large;
+    color: lightgray;
+}
+
+.stars {
+    margin-top: 5%;
+}
+
+i {
+    color: yellow;
+}
+
+.describtion {
+    color: lightgray;
+    margin: 5%;
+}
+
+button {
+    background: none;
+    border: none;
+    font-size: x-large;
+    margin-bottom: 7%;
+}
+
+hr {
+    width: 70%;
+    color: lightgray;
+}
+
+.info {
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+.info div {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info p {
+    color: lightgray;
+}
